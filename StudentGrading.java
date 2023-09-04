@@ -171,7 +171,7 @@ public class StudentGrading {
                             stddev += (gr - (avg/sz)) * (gr - (avg/sz));
                         }
                         if (sz > 1) {
-                            System.out.println("Desviación estándar: √" + (stddev / (sz - 1)));// Mostrar desviación estándar
+                            System.out.println("Desviación estándar: " + Math.sqrt(stddev / (sz - 1)));// Mostrar desviación estándar
                         }
                         else {
                             System.out.println("Desviación estándar: 0");
